@@ -1,17 +1,32 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { Text, View } from 'react-native';
 
 // header cmp
 const Header = () => {
-  const { textStyle } = styles;
+  const { textStyle, viewStyle } = styles;
   return(
-    <Text style={textStyle}> My Albums </Text>
+    <View style={viewStyle}>
+    <Text style={textStyle}> My Cool Albums! </Text>
+    </View>
     );
 };
 
 const styles = {
+  viewStyle:{
+    backgroundColor: '#F8F8F8',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: 60,
+    paddingTop: 15,
+    shadowColor: '#000',
+    shadowOffSet: {width:0, height:5},
+    shadowOpacity: 0.25,
+    elevation: 2,
+    position: 'relative'
+
+  },
   textStyle: {
-    fontSize: 20
+    fontSize: 25
   }
 };
 
