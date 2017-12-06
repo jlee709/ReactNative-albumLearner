@@ -3,9 +3,16 @@ import { Text } from 'react-native';
 
 // header cmp
 const Header = () => {
+  const { textStyle } = styles;
   return(
-    <Text> My Albums </Text>
+    <Text style={textStyle}> My Albums </Text>
     );
+};
+
+const styles = {
+  textStyle: {
+    fontSize: 20
+  }
 };
 
 // exporting for use 
