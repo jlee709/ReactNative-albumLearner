@@ -2,11 +2,11 @@ import React from 'react';
 import { Text, View } from 'react-native';
 
 // header cmp
-const Header = () => {
+const Header = (props) => {
   const { textStyle, viewStyle } = styles;
   return(
     <View style={viewStyle}>
-    <Text style={textStyle}> My Cool Albums! </Text>
+    <Text style={textStyle}> {props.headerText}</Text>
     </View>
     );
 };
@@ -19,7 +19,7 @@ const styles = {
     height: 60,
     paddingTop: 15,
     shadowColor: '#000',
-    shadowOffSet: {width:0, height:5},
+    shadowOffset: {width:0, height:5},
     shadowOpacity: 0.25,
     elevation: 2,
     position: 'relative'
