@@ -1,0 +1,1 @@
+Application is a reat-native sample app for the purposes of learning react native 
