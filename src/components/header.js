@@ -30,5 +30,5 @@ const styles = {
   }
 };
 
-// exporting for use 
+// exporting for use ~
 export default Header;
