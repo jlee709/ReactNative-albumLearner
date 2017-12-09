@@ -24,13 +24,13 @@ const styles = {
   },
 
   buttonStyle: {
-    felx: 1,
+    flex: 1,
     backgroundColor: '#fff',
     borderRadius: 5,
     borderWidth: 1,
     borderColor: '#0000FF',
-    margineLeft: 5,
-    margineRight: 5
+    marginLeft: 5,
+    marginRight: 5
 
   }
 }
